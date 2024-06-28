@@ -1,0 +1,406 @@
+@charset "ISO-8859-1";
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px 25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+
+
+#search {
+    padding: 3px;
+    /* width: 50%; */
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.big {
+    font-family: -webkit-body;
+    color: #52c37b;
+    font-size: xxx-large;
+
+}
+
+.small {
+    font-family: system-ui;
+    color: wheat;
+    font-size: larger;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.secondhalf {
+    width: 64%;
+    margin: auto;
+    color: white;
+
+}
+
+.body {
+    display: flex;
+}
+
+.container {
+
+    border: 4px solid grey;
+    padding: 52px 3px;
+    width: 50%;
+    text-align: center;
+    border-radius: 100px;
+    margin: 10px;
+    color: #0f0f0f;
+    background-color: #48bcbc
+}
+
+.container2 {
+    padding: 62px 39px;
+    text-align: center;
+    border-radius: 0;
+    margin: 17px;
+    color: #7a2b2b;
+    background-color: #cfe4e4
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    margin: auto;
+}
+
+.container3 {
+    padding: 25px 39px;
+    text-align: center;
+    border-radius: 0;
+    margin: 20px;
+    color: #29aa68;
+
+}
+
+
+.body2 {
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+
+.body2 img {
+    width: 340px;
+    border: 4px solid grey;
+}
+
+.heading {
+    text-align: center;
+    border-radius: 0;
+    color: #2e46bc;
+}
+
+.container5 {
+
+	display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+.container6 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+.container5 img {
+    border: 2px solid black;
+    width: 340px;
+}
+.container6 img {
+    border: 2px solid black;
+    width: 340px;
+}
+.img{
+	width:404px;
+}
+
+
+    .companies img {
+        max-width: 100%;
+        height:auto ;
+    }
+
+
+.coursename {
+    color: #8bef0c;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name {
+    padding: 5px 23px;
+    width: 77%
+}
+
+.text-center {
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: bottom;
+}
+
+.container7 img {
+    display: flex;
+
+}
+
+.heading2 {
+    margin: auto;
+    width: 22%;
+    padding: 13px 7px;
+}
+
+
+.container8 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.foter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 81%;
+    font-size: x-large;
+}
+
+.footer1 {
+    padding: 43px 0;
+}
+
+.foter2 {
+    width: 110%;
+    font-style: oblique;
+    font-size: 113%;
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.footer3 {
+
+    width: 81%;
+    padding: 36px 0;
+    font-size: revert;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellowgreen;
+}
+
+
+.footer2 {
+    padding: 50px 135px;
+}
+
+.foter li {
+    padding: 11px;
+    list-style: none;
+}
+
+.foter li a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer3 li {
+    padding: 11px;
+    list-style: none;
+}
+
+.footer3 li a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.back {
+    background: rgb(88, 80, 80)url('FooterBackground.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+
+.container9 {
+
+    padding: 52px 2px;
+    width: 34%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: #3652ba;
+    background-color: #acb6b6
+}  
+
+.textfooter {
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: bottom;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right:6%;
+    top: 23px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width:1113px) {
+    
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        justify-content: none;
+        transition: all 0.7s ease-out;
+        height: 400px;
+        
+    }
+    .boxmain{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .firsthalf{
+        width: 100%;
+        margin: auto;
+    }
+    .rightnav {
+        text-align: center;
+        margin-left: 45px;
+    }
+    .body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .body2{
+       flex-direction: column;
+    }
+    .container5{
+        flex-direction: column;
+    }
+    
+    .container{
+       padding: 0 50px;
+        border-radius: 44px;
+    }
+    .container2{
+        padding: 0 0;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .container8 {
+        display: block; 
+        width: 70%; 
+    }
+    .container9{
+        width: 100%;
+    }
+    #search {
+        width: 70%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+    .footer2{
+        padding: 0 0 ;
+        margin: 12px;
+    }
+    .foter2{
+        width: 99%;
+    }
+    .foter3{
+        width: 0;
+        font-size: larger;
+}
+    .footer3{
+        width: none;
+        padding: 21px 0;
+        font-size: larger;
+}
+}
